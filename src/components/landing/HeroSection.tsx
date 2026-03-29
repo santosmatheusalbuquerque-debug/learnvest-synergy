@@ -46,14 +46,16 @@ const HeroSection = () => {
           </p>
 
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <Link to="/registro">
+            <Link to="/onboarding">
               <Button variant="hero" size="xl">
                 Começar Agora <ArrowRight className="ml-1" />
               </Button>
             </Link>
-            <Button variant="heroOutline" size="xl">
-              <Play className="mr-1" /> Ver Demo
-            </Button>
+            <Link to="/feed">
+              <Button variant="heroOutline" size="xl">
+                <Play className="mr-1" /> Ver Demo
+              </Button>
+            </Link>
           </div>
 
           <div className="mt-16 grid grid-cols-1 gap-6 sm:grid-cols-3">
