@@ -1,6 +1,6 @@
 import { Article, CATEGORY_MAP } from "@/types/article";
 
-const NEWS_API_KEY = import.meta.env.VITE_NEWS_API_KEY as string;
+const NEWS_API_KEY = "0922b07621554dc99bdcd3ebdd51f94b";
 const CORS_PROXY = "https://corsproxy.io/?";
 
 interface NewsAPIArticle {

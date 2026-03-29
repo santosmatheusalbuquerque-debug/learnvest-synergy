@@ -1,4 +1,4 @@
-const GROQ_API_KEY = import.meta.env.VITE_GROQ_API_KEY as string;
+const GROQ_API_KEY = "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";
 const GROQ_ENDPOINT = "https://api.groq.com/openai/v1/chat/completions";
 const MODEL = "llama3-8b-8192";
 
